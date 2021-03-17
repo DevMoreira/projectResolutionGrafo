@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1615674776 source:c:\users\gusta\documents\ativgrafo\ativgrafo\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1616014127 source:c:\users\gusta\documents\ativgrafo\ativgrafo-1\main.cpp
+	<stdio.h>
+	<stdlib.h>
+
