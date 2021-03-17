@@ -61,22 +61,7 @@ int main()
         {0,0,0,0,0,0,1,4,0,1,0}
     };
 
-    int i=0,f=0,c,k=0,z=1,totalDist=0,menorDist=0; /// dist = distancia, l = linha (vertice 1), c = coluna (vertice 2)
-    bool lig0 = false;
-    char R;
-
-    /*** testando o total de caminhos
-    for(int i=0;i<11;i++){
-        for(int j=0;j<11;j++){
-           if(grafo[i][j] > 0){
-                camPoss++;
-           }
-        }
-    }
-
-    printf("\n A quantidade de caminhos possiveis: %d \n\n",camPoss);
-    system("pause");
-    ***/
+    int i=0,f=0,c,k=0,z=1,totalDist=0,menorDist=0;  bool lig0 = false;  char R;
 
     prox_tentativa:
     totalDist=0;
